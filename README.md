@@ -30,12 +30,15 @@ Asset Data: This file consists of asset level information. Each asset refers to 
 <br>
 Incident Data: This file consists of Incident history for each asset. There might be assets that have no incidents.
 <br>
-	AssetID: unique GUID for the asset
-	DateOccurred: Occurred date of the incident
-	ProblemtypeName: Type of an incident
+
+- AssetID: unique GUID for the asset
+- DateOccurred: Occurred date of the incident
+- ProblemtypeName: Type of an incident
+
 <br>
 Volume Data: This file consists of printing history of an Asset
 <br>
-	AssetID: unique GUID for the asset
-	ReadDate: Date and time the volume has been recorded
-	Volume: Number of pages that the asset has printed
+
+- AssetID: unique GUID for the asset
+- ReadDate: Date and time the volume has been recorded
+- Volume: Number of pages that the asset has printed
