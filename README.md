@@ -15,8 +15,8 @@ You are provided with 3 data sets:
 <br>
 Asset Data: This file consists of asset level information. Each asset refers to a printing device
 <br>
-	- AssetNumericID: Unique ID for the asset
-	- AssetID: Unique GUID for the asset
+1. AssetNumericID: Unique ID for the asset
+2. AssetID: Unique GUID for the asset
 	- ModelName: Manufacture model of the asset
 	- ModelClass: Class of an asset (production or Multifunction)
 	- IsColor: if asset is a color printer or not
