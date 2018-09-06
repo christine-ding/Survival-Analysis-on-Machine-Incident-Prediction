@@ -14,6 +14,7 @@ To train a model that uses incident history and predicts the probability that an
 You are provided with 3 data sets:
 <br>
 Asset Data: This file consists of asset level information. Each asset refers to a printing device
+<br>
 	- AssetNumericID: Unique ID for the asset
 	- AssetID: Unique GUID for the asset
 	- ModelName: Manufacture model of the asset
@@ -23,12 +24,16 @@ Asset Data: This file consists of asset level information. Each asset refers to 
 	- IsScanner: if asset has inbuilt scanner or not
 	- IsCopier: if asset is a copier or not
 	- IsFax: if asset is capable of faxing or not
-	- ageInMonths: age of an asset 
+	- ageInMonths: age of an asset
+<br>
 Incident Data: This file consists of Incident history for each asset. There might be assets that have no incidents.
+<br>
 	AssetID: unique GUID for the asset
 	DateOccurred: Occurred date of the incident
 	ProblemtypeName: Type of an incident
+<br>
 Volume Data: This file consists of printing history of an Asset
+<br>
 	AssetID: unique GUID for the asset
 	ReadDate: Date and time the volume has been recorded
 	Volume: Number of pages that the asset has printed
