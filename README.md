@@ -2,13 +2,17 @@
 Time-to-Failure Prediction using Coxph Regression Model
 
 ### Problem statement
+
 Resolving incidents after they have been raised may not be an efficient way in asset-heavy industry as the costs associated with downtime of the assets are high. Predicting the incidents in advance so we can proactively prevent them from occurring will avoid or reduce the costs associated with downtime.
 
 ### Goal
+
 To train a model that uses incident history and predicts the probability that an asset will fail in next X (10) days.
 
 ### Dataset description
+
 You are provided with 3 data sets:
+<br>
 Asset Data: This file consists of asset level information. Each asset refers to a printing device
 	AssetNumericID: Unique ID for the asset
 	AssetID: Unique GUID for the asset
